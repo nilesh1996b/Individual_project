@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/82919626fa.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;            
+        }
+
+        body{
+            background: #ddd;
+            margin: 0;
+            font-family: 'boto', sans-serif;
+        }
+
+        .container{
+            max-width: 1000px;
+            
+            margin: 0 auto;
+        }
+
+        .menu-main{
+            background: #fff;
+            box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
+            display: flex;
+            height: 30px;
+            margin-top: 0;
+            align-items: center;
+        }
+
+        nav ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            list-style: none;
+            position: relative;
+            text-align: left;
+           
+        }
+
+        .menu-main li {
+            
+            text-decoration: none;
+            display: block;
+            
+        }
+
+        a{
+            text-decoration: none;
+            color: #444;
+            padding: 0.75em 1.75em;
+        }
+
+        .menu-main a:hover {
+            
+            background: #444;
+            color: white;   
+            height: 80%; 
+        }
+
+        .menu-sub{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="menu-main">
+            <li><a href="#">Tab 01</a>
+                <div class="manu-sub">
+                    <ul>
+                    <li><a href="">Link 01</a></li>
+                    <li><a href="">Link 02</a></li>
+                    <li><a href="">Link 03</a></li>
+                    <li><a href="">Link 04</a></li>
+                    <li><a href="">Link 05</a></li>
+                    </ul>
+                </div>
+            </li>
+
+
+
+            <li><a href="#">Tab 02</a></li>
+            <li><a href="#">Tab 03</a></li>
+            <li><a href="#">Tab 04</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
